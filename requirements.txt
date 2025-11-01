@@ -1,0 +1,40 @@
+# Core LLM & RAG Framework
+langchain>=0.2.10
+langchain-community>=0.2.6
+langchain-core>=0.2.12
+langchain-openai>=0.2.6
+
+# Embeddings
+openai>=1.14.3
+sentence-transformers>=3.0.1
+
+# Vector Stores (for retrieval)
+faiss-cpu>=1.8.0
+chromadb>=0.5.3
+
+# Document Loaders & Parsers
+pypdf>=4.2.0
+unstructured>=0.14.5
+pdfplumber>=0.11.0
+
+# Text Processing
+tiktoken>=0.7.0
+numpy>=1.26.4
+
+# Web App / Demo UI
+streamlit>=1.36.0
+gradio>=4.36.0
+
+# Optional but useful for evaluation or logging
+pandas>=2.2.2
+python-dotenv>=1.0.1
+
+# Re-ranking (semantic relevance)
+torch>=2.3.0
+transformers>=4.43.2
+
+# Utilities
+requests>=2.31.0
+
+# Optional: if you want local vector search
+duckdb>=1.1.0
